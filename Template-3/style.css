@@ -1,0 +1,227 @@
+.header {
+    border-bottom: 1px solid #DEE2E6;
+    align-items: center;
+    height: 74px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+hr {
+    max-width: 1000px;
+}
+
+.icon-wrapper {
+    font-size: 24px;
+    margin: 0px 0px 0px 25px;
+}
+
+.menu-wrapper a,
+ .menu-wrapper a:hover,
+  .menu-wrapper a:visited {
+    color: #343A40;
+    text-decoration: none;
+    margin: 0px 25px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* section 1 */
+
+.first-section>.container {
+    max-width: 1000px;  
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.title-wrapper h1 {
+    color: #5A5A5A;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+}
+
+.title-wrapper p {
+    color: #5A5A5A;
+    padding-top: 24px;
+    padding-right: 36px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.img-wrapper {
+    max-width: 500px;   
+    background-color: lightgray;
+    border-radius: 14px;
+}
+
+.img-wrapper h1 {
+    margin: 190px 130px 190px 130px;
+    color: #5A5A5A;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+/* section 2 */
+
+.second-section>.container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.card-no-border {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 333.3px;
+    height: 334px;
+}
+.card-no-border h2 { 
+    margin: 12px 0px 12px 0px;
+    color: #5A5A5A;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-no-border p {
+    margin: 0px 0px 12px 0px;
+    padding: 0px 26px 0px 26px;
+    color: #5A5A5A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+
+/* section 3 */
+
+.third-section {
+    display: flex;
+    justify-content: center;
+}
+
+.third-section>.container {
+    margin: 80px; 
+    display: flex;
+    padding: 24px;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #563D7C;
+}
+
+.text-wrapper h1 {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-wrapper p {
+    margin: 0px;
+    padding-top: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.button-wrapper button {
+    padding: 12px 50px 12px 50px;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* footer */
+
+hr {
+    max-width: 960px;
+}
+
+span {
+    font-size: 24px;
+}
+
+footer>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1 {
+    margin-bottom: 12px;
+    color: #212529;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;  
+}
+
+footer>.container p,
+footer>.container li {
+    margin: 12px 0px 12px 0px; 
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
